@@ -1,0 +1,35 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - express > finalhandler > debug:
+        patched: '2022-01-17T14:28:11.875Z'
+    - sequelize > retry-as-promised > debug:
+        patched: '2022-01-17T14:28:11.875Z'
+    - sqlite3 > node-pre-gyp > tar-pack > debug:
+        patched: '2022-01-17T14:28:11.875Z'
+  'npm:extend:20180424':
+    - sqlite3 > node-pre-gyp > request > extend:
+        patched: '2022-01-17T14:28:11.875Z'
+  'npm:hoek:20180212':
+    - express-jwt > jsonwebtoken > joi > hoek:
+        patched: '2022-01-17T14:28:11.875Z'
+    - express-jwt > jsonwebtoken > joi > topo > hoek:
+        patched: '2022-01-17T14:28:11.875Z'
+  'npm:moment:20170905':
+    - sequelize > moment:
+        patched: '2022-01-17T14:28:11.875Z'
+    - jsonwebtoken > joi > moment:
+        patched: '2022-01-17T14:28:11.875Z'
+    - sequelize > moment-timezone > moment:
+        patched: '2022-01-17T14:28:11.875Z'
+    - express-jwt > jsonwebtoken > joi > moment:
+        patched: '2022-01-17T14:28:11.875Z'
+  'npm:stringstream:20180511':
+    - sqlite3 > node-pre-gyp > request > stringstream:
+        patched: '2022-01-17T14:28:11.875Z'
+  'npm:tough-cookie:20170905':
+    - sqlite3 > node-pre-gyp > request > tough-cookie:
+        patched: '2022-01-17T14:28:11.875Z'
